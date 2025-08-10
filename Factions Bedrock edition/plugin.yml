@@ -1,0 +1,21 @@
+---
+name: FactionsPro
+author: "Tethered_ and ArkFelpz"
+description: A Plugin For Easily Managing Factions
+version: 5.0.4
+main: FactionsPro\FactionMain
+api:
+- 3.0.0
+softdepend:
+- AntiSpamPro
+extensions:
+- sqlite3
+commands:
+  f:
+    description: use /f ajuda para mais informações
+    permission: f.command
+permissions:
+  f.command:
+    default: true
+    description: Allow use of all faction commands
+...
